@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 // Route::get('URL/{parameter}','ArticleController@show');
 
-Route::resource('articles', "ArticleController" , [ 'only' => ['index','store','show'] ] );
+Route::resource('/', "ArticleController" , [ 'only' => ['index','store','show'] ] );
 Route::resource('comments', "CommentController" , [ 'only' => [ 'store','destroy'] ] );
 
 
