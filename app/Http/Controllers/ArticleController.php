@@ -56,7 +56,7 @@ class ArticleController extends Controller
     
     $articles->save();
 
-    return redirect()->with('message','投稿が完了しました。');
+    return redirect("/")->with('message','投稿が完了しました。');
   }
 
 
