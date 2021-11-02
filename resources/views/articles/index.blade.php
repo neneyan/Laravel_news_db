@@ -6,7 +6,7 @@
 
     <div class="page_title">
       <h1>
-        <a href="/articles">Laravel News</a>
+        <a href="/">Laravel News</a>
       </h1>
     </div>
 
