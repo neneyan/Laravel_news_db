@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+  body {
+    margin: 10;
+    padding: 0;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-size: 0.9rem;
+    background-color: #e0cccc;
+    color: #666666;
+  }
+  
+  .wrapper {
+    width:100%;
+    max-width:1000px;
+    margin:0px auto;
+    padding:30px 20px;
+  }
+  
+  a {
+    color: #fffafa;
+  }
+
+  a:hover {
+    color: #666666;
+  }
+
+  p {
+    color: #998b8b;
+  }
+
+  p a {
+    color: #998b8b;
+  }
+
+  h1 {
+    color: #fffafa;
+    background-color: #998b8b;
+    font-size: 30px;
+    width: 200px;
+    margin: 5px 0px;
+    padding: 10px 20px;
+    border: solid 3px #fffafa;/*線*/
+    border-radius: 10px;
+  }
+
+  h3 {
+    color: #666666;
+  }
+
+  .title_form {
+    margin: 5px;
+    font-size: 16px;
+    width: 450px;
+  }
+
+  .text_form {
+    margin: 5px 5px 5px 32px;
+    font-size: 16px;
+    width: 450px;
+    height: 200px;
+  }
+
+  .form_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 280px;
+    padding: 10px;
+    width: 90px;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .articles_list {
+    width: 550px;
+    height: 150px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #fffafa;
+  }
+
+  .d_articles_list {
+    width: 550px;
+    height: 150px;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    border-radius: 10px;
+    background-color: #fffafa;
+  }
+
+  .list {
+    padding-left: 20px;
+  }
+  
+  .comment_form {
+    font-size: 16px;
+    margin: 0px 50px;
+    width: 480px;
+    height: 100px;
+  }
+
+  .comments_list {
+    width: 550px;
+    height: 50px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #fffafa;
+  }
+
+  .btn_1 {
+    display       : inline-block;
+    border-radius : 10px;          /* 角丸       */
+    font-size     : 10pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 5px 10px;   /* 余白       */
+    margin: 20px 250px;
+    background    : #998b8b;     /* 背景色     */
+    color         : #fffafa;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid #998b8b;    /* 枠の指定 */
+  }
+
+  .btn_2 {
+    display       : inline-block;
+    border-radius : 10px;          /* 角丸       */
+    font-size     : 10pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 5px 10px;   /* 余白       */
+    margin: 20px 250px;
+    background    : #998b8b;     /* 背景色     */
+    color         : #fffafa;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid #998b8b;    /* 枠の指定 */
+  }
+
+  .btn_3 {
+    display       : inline-block;
+    border-radius : 10px;          /* 角丸       */
+    font-size     : 10pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 5px 10px;   /* 余白       */
+    margin-bottom: 20px;
+    background    : #998b8b;     /* 背景色     */
+    color         : #fffafa;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid #998b8b;    /* 枠の指定 */
+  }
+  
+  
