@@ -51,30 +51,16 @@ class ArticleController extends Controller
     
     // エラー文表示の処理を実行
     if ($validator->fails()) {
-      return redirect()->route("articles.index")->withErrors($validator->messages());
+      return redirect()->route("index")->withErrors($validator->messages());
     }
     
     $articles->save();
 
-    return redirect('/articles')->with('message','投稿が完了しました。');
+    return redirect()->with('message','投稿が完了しました。');
   }
 
 
   
-  // 「記事全文・コメントを見る」ページへの遷移
-  public function show($id)
-  {
-	  $articles = Article::find($id);
-    $comments = Comment::where('article_id',$id)->get();
-
-    // orderBy で並び替え
-    // orderBy('created_at', 'desc')->get();
-
-    // 指定したViewにデータを渡す
-	  return view('comments.comment', [
-      'articles' => $articles,
-      'comments' => $comments,
-    ]);
-  }
+  
 
 }

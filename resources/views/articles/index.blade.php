@@ -30,7 +30,7 @@
 
 
 <!-- 投稿フォーム -->
-<form method="post" action="{{ route('articles.index') }}" enctype="multipart/form-data"　onsubmit="return submit_check_function()">
+<form method="post" action="{{ route('index') }}" enctype="multipart/form-data"　onsubmit="return submit_check_function()">
 @csrf
       
     <div class="input_title">
@@ -54,7 +54,7 @@
       <div class="articles_list">
         <h3 class="list">{{ $article->title }}</h3>
         <p class="list">{{ $article->text }}</p>
-        <p class="list"><a href="{{ route('articles.show' , $article->id) }}">記事全文・コメントを見る</a></p>
+        <p class="list"><a href="{{ route('comments.show' , $article->id) }}">記事全文・コメントを見る</a></p>
       </div>
         
     @endforeach
